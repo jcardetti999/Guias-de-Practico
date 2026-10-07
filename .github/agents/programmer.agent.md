@@ -1,7 +1,7 @@
 ---
 description: "Implementa funcionalidades y correcciones siguiendo el análisis técnico, modifica el código, ejecuta tests y verifica los cambios. Use when: implement features, fix bugs, execute technical plans, write production code, run tests, validate changes"
 name: "Programmer"
-tools: [read, glob, grep, list, lsp, edit, webfetch, websearch]
+tools: [read, glob, grep, list, lsp, edit, bash, webfetch, websearch]
 user-invocable: true
 model: "Claude Sonnet 4"
 argument-hint: "Implementation task or technical plan to execute"

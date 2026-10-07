@@ -1,0 +1,9 @@
+# Clases compiladas por _build_check.ps1 (javac las deja junto a los .java)
+*.class
+
+# Archivos de backup/editor
+*~
+*.orig
+*.rej
+.DS_Store
+Thumbs.db
