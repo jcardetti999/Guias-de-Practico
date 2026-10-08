@@ -1,0 +1,85 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "E1 - Minimo de un vector",
+            "request": "launch",
+            "mainClass": "Ejercicio1",
+            "cwd": "${fileDirname}",
+            "console": "integratedTerminal"
+        },
+        {
+            "type": "java",
+            "name": "E2 - Buscar en vector desordenado",
+            "request": "launch",
+            "mainClass": "Ejercicio2",
+            "cwd": "${fileDirname}",
+            "console": "integratedTerminal"
+        },
+        {
+            "type": "java",
+            "name": "E3 - Busqueda binaria",
+            "request": "launch",
+            "mainClass": "Ejercicio3",
+            "cwd": "${fileDirname}",
+            "console": "integratedTerminal"
+        },
+        {
+            "type": "java",
+            "name": "E4 - Detectar duplicados",
+            "request": "launch",
+            "mainClass": "Ejercicio4",
+            "cwd": "${fileDirname}",
+            "console": "integratedTerminal"
+        },
+        {
+            "type": "java",
+            "name": "E5 - Contar ocurrencias",
+            "request": "launch",
+            "mainClass": "Ejercicio5",
+            "cwd": "${fileDirname}",
+            "console": "integratedTerminal"
+        },
+        {
+            "type": "java",
+            "name": "E6 - Comparar dos vectores",
+            "request": "launch",
+            "mainClass": "Ejercicio6",
+            "cwd": "${fileDirname}",
+            "console": "integratedTerminal"
+        },
+        {
+            "type": "java",
+            "name": "E7 - Invertir un vector",
+            "request": "launch",
+            "mainClass": "Ejercicio7",
+            "cwd": "${fileDirname}",
+            "console": "integratedTerminal"
+        },
+        {
+            "type": "java",
+            "name": "E8 - Sumar una matriz",
+            "request": "launch",
+            "mainClass": "Ejercicio8",
+            "cwd": "${fileDirname}",
+            "console": "integratedTerminal"
+        },
+        {
+            "type": "java",
+            "name": "E9 - Mayor de una matriz",
+            "request": "launch",
+            "mainClass": "Ejercicio9",
+            "cwd": "${fileDirname}",
+            "console": "integratedTerminal"
+        },
+        {
+            "type": "java",
+            "name": "E10 - Ordenamiento burbuja",
+            "request": "launch",
+            "mainClass": "Ejercicio10",
+            "cwd": "${fileDirname}",
+            "console": "integratedTerminal"
+        }
+    ]
+}

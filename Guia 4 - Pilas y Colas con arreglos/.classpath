@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!--
+    Configuracion de proyecto Java para el Java Language Server de VS Code.
+
+    Sin este archivo, el LS no reconoce la carpeta como proyecto Java, y por eso
+    no aparece el boton "Run" ni la vista "Run and Debug".
+
+    NO es un sistema de build: no construye nada. Solo le dice al LS de VS Code
+    de donde leer el codigo y a que JDK compilar. La compilacion real sigue
+    siendo "javac EjercicioN.java" (ver _build_check.ps1).
+-->
+<classpath>
+    <classpathentry kind="src" path="."/>
+    <classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+    <classpathentry kind="output" path="bin"/>
+</classpath>
