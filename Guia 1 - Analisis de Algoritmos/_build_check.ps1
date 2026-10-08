@@ -47,15 +47,25 @@ try {
 # ============================================================
 #  1. UBICAR LA CARPETA DE LA GUIA
 # ============================================================
+# Este script vive DENTRO de la carpeta de la guia, asi que $PSScriptRoot ya es
+# la respuesta. Solo si el usuario lo movio a la raiz del repo hay que buscar.
+# NO se hardcodea el nombre de la guia: se busca una carpeta hermana que tenga
+# el mismo nombre que la carpeta donde vive este script.
 $guia = $PSScriptRoot
-if (-not (Test-Path (Join-Path $guia 'Ejercicio1.java'))) {
-    # Estamos en la raiz del repo: entrar en la carpeta de la guia.
-    $guia = Join-Path (Split-Path $PSScriptRoot -Parent) 'Guia 1 - Analisis de Algoritmos'
+
+if (-not (Get-ChildItem -Path $guia -Filter '*.docx' -ErrorAction SilentlyContinue)) {
+    $nombreCarpeta = Split-Path $guia -Leaf
+    $padre = Split-Path $guia -Parent
+    $hermana = Join-Path $padre $nombreCarpeta
+    if (Get-ChildItem -Path $hermana -Filter '*.docx' -ErrorAction SilentlyContinue) {
+        $guia = $hermana
+    }
 }
-if (-not (Test-Path (Join-Path $guia 'Ejercicio1.java'))) {
-    Write-Host "ERROR: no se encuentra Ejercicio1.java." -ForegroundColor Red
-    Write-Host "  Carpeta buscada: $guia"
-    Write-Host "  Ejecuta este script desde la raiz del repo o desde la carpeta de la guia."
+
+if (-not (Get-ChildItem -Path $guia -Filter 'Ejercicio1.java' -ErrorAction SilentlyContinue)) {
+    Write-Host "ERROR: no se encuentra Ejercicio1.java en: $guia" -ForegroundColor Red
+    Write-Host "  Ese archivo lo genera el agente Programmer al implementar la guia." -ForegroundColor Yellow
+    Write-Host "  Si la guia ya esta implementada, revisa que el script este dentro de su carpeta." -ForegroundColor Yellow
     exit 1
 }
 Set-Location $guia
