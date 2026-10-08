@@ -1,6 +1,14 @@
 # Clases compiladas por _build_check.ps1 (javac las deja junto a los .java)
 *.class
 
+# Carpeta de salida que usa el Java Language Server de VS Code
+# (salida definida en el <classpathentry kind="output"> de cada .classpath)
+bin/
+
+# Archivos de configuracion del proyecto Java que genera el LS
+.project
+.settings/
+
 # Archivos de backup/editor
 *~
 *.orig
