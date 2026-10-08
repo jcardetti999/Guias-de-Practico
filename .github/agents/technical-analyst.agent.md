@@ -1,7 +1,7 @@
 ---
 description: "Analiza requerimientos, arquitectura, código existente y problemas técnicos. No modifica archivos. Use when: need deep technical analysis before implementation, understand existing codebase, design solutions, identify risks, create implementation plans for other agents to execute"
 name: "Technical Analyst"
-tools: [read, glob, grep, list, lsp, webfetch, websearch]
+tools: [vscode, execute, read, agent, edit, search, web, browser, todo]
 user-invocable: true
 model: "Claude Sonnet 4"
 argument-hint: "Technical analysis task or problem to investigate"
