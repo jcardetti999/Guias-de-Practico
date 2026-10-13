@@ -226,7 +226,7 @@ sin entrada interactiva para que el build check sea determinista.
 ## 7. ARCHIVOS DE PROYECTO
 
 Creá en esta guía, y sólo aquí:
-- `Ejercicio1.java` … `Ejercicio10.java`.
+- `Ejercicio5_1.java` … `Ejercicio5_10.java`.
 - `_build_check.ps1`: compila UTF-8 los diez fuentes y ejecuta cada clase con
   salida de estado/código de salida visible. No ocultes errores, no agregues
   dependencias y usá una estrategia de entrada compatible con PowerShell 5.1 si

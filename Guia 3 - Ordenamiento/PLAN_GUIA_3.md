@@ -276,7 +276,7 @@ que no se intuye mirando el código.
 
 ## 10. Criterios de aceptación
 
-- [ ] Existen los 10 archivos `Ejercicio1.java` … `Ejercicio10.java`.
+- [ ] Existen los 10 archivos `Ejercicio3_1.java` … `Ejercicio3_10.java`.
 - [ ] Compilan con `javac -encoding UTF-8`.
 - [ ] Cada archivo trae el prompt embebido con las **6 secciones** de la consigna.
 - [ ] Cada archivo trae el bloque de ajustes del prompt.

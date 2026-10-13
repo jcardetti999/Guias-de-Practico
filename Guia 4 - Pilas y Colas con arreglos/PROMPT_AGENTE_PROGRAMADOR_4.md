@@ -309,7 +309,7 @@ el botón "Run"** de VS Code.
 ### `.vscode/launch.json`
 
 **Va DENTRO de la carpeta de la guía**, no en la raíz del repo. Un `launch.json`
-en la raíz sería ambiguo: las 4 guías tienen un `Ejercicio1` en default package y
+en la raíz sería ambiguo: las 4 guías tienen un `Ejercicio4_1` en default package y
 el depurador no sabría cuál ejecutar. Cada configuración lleva
 `"cwd": "${fileDirname}"`.
 
@@ -318,7 +318,7 @@ el depurador no sabría cuál ejecutar. Cada configuración lleva
 ### Archivos
 | # | Archivo | Líneas | Estructura | Operaciones | Θ |
 |---|---------|--------|------------|-------------|---|
-| 1 | Ejercicio1.java | N | `PilaEnteros` | push, pop, peek, isEmpty, isFull, size | Θ(1) |
+| 1 | Ejercicio4_1.java | N | `PilaEnteros` | push, pop, peek, isEmpty, isFull, size | Θ(1) |
 
 ### Verificación ejecutada
 Qué corriste, qué salida dio, si algún test falló. **No afirmes que funciona

@@ -20,8 +20,8 @@ instrumentación dentro de la lógica real del algoritmo.
 ## Ejercicio 1 — Encontrar el mínimo de un vector
 
 Implementá en Java un algoritmo que encuentre el valor mínimo de un vector de
-números enteros (`int[]`). Generá el archivo `Ejercicio1.java` con
-`public class Ejercicio1` y su `main`.
+números enteros (`int[]`). Generá el archivo `Ejercicio1_1.java` con
+`public class Ejercicio1_1` y su `main`.
 
 **Antes de escribir el código, explicá:**
 
@@ -49,8 +49,8 @@ el motivo de inicializar el acumulador.
 ## Ejercicio 2 — Buscar un elemento en un vector desordenado
 
 Implementá en Java un algoritmo que busque un elemento dentro de un vector
-(`int[]`) que **no está ordenado**. Generá `Ejercicio2.java` con
-`public class Ejercicio2` y su `main`.
+(`int[]`) que **no está ordenado**. Generá `Ejercicio1_2.java` con
+`public class Ejercicio1_2` y su `main`.
 
 **El prompt debe:**
 
@@ -75,7 +75,7 @@ corte temprano es seguro.
 ## Ejercicio 3 — Buscar un elemento en un vector ordenado
 
 Implementá en Java un algoritmo de **búsqueda binaria** sobre un `int[]` ordenado
-ascendentemente. Generá `Ejercicio3.java` con `public class Ejercicio3` y su `main`.
+ascendentemente. Generá `Ejercicio1_3.java` con `public class Ejercicio1_3` y su `main`.
 
 **El prompt debe:**
 
@@ -102,8 +102,8 @@ ascendentemente. Generá `Ejercicio3.java` con `public class Ejercicio3` y su `m
 ## Ejercicio 4 — Detectar elementos duplicados
 
 Implementá en Java **dos soluciones diferentes** para detectar elementos
-duplicados dentro de un `int[]`. Generá `Ejercicio4.java` con
-`public class Ejercicio4` y su `main`.
+duplicados dentro de un `int[]`. Generá `Ejercicio1_4.java` con
+`public class Ejercicio1_4` y su `main`.
 
 **Las dos soluciones deben ser:**
 
@@ -128,8 +128,8 @@ prueba e imprimir el vector de duplicados detectados en cada caso.
 ## Ejercicio 5 — Contar ocurrencias
 
 Implementá en Java un algoritmo que cuente cuántas veces aparece un
-determinado valor dentro de un `int[]`. Generá `Ejercicio5.java` con
-`public class Ejercicio5` y su `main`.
+determinado valor dentro de un `int[]`. Generá `Ejercicio1_5.java` con
+`public class Ejercicio1_5` y su `main`.
 
 **El prompt debe:**
 
@@ -150,7 +150,7 @@ determinado valor dentro de un `int[]`. Generá `Ejercicio5.java` con
 ## Ejercicio 6 — Comparar dos vectores
 
 Implementá en Java un algoritmo que determine si dos `int[]` son iguales.
-Generá `Ejercicio6.java` con `public class Ejercicio6` y su `main`.
+Generá `Ejercicio1_6.java` con `public class Ejercicio1_6` y su `main`.
 
 **El prompt debe:**
 
@@ -172,7 +172,7 @@ Generá `Ejercicio6.java` con `public class Ejercicio6` y su `main`.
 ## Ejercicio 7 — Invertir un vector
 
 Implementá en Java **dos versiones distintas** para invertir un `int[]`.
-Generá `Ejercicio7.java` con `public class Ejercicio7` y su `main`.
+Generá `Ejercicio1_7.java` con `public class Ejercicio1_7` y su `main`.
 
 **Las dos versiones deben ser:**
 
@@ -196,7 +196,7 @@ y de dos elementos.
 ## Ejercicio 8 — Sumar todos los elementos de una matriz
 
 Implementá en Java un algoritmo que calcule la suma de todos los elementos de
-una matriz `int[][]`. Generá `Ejercicio8.java` con `public class Ejercicio8` y su `main`.
+una matriz `int[][]`. Generá `Ejercicio1_8.java` con `public class Ejercicio1_8` y su `main`.
 
 **El prompt debe:**
 
@@ -221,7 +221,7 @@ una matriz `int[][]`. Generá `Ejercicio8.java` con `public class Ejercicio8` y 
 ## Ejercicio 9 — Encontrar el mayor elemento de una matriz
 
 Implementá en Java un algoritmo que encuentre el mayor elemento de una matriz
-`int[][]`. Generá `Ejercicio9.java` con `public class Ejercicio9` y su `main`.
+`int[][]`. Generá `Ejercicio1_9.java` con `public class Ejercicio1_9` y su `main`.
 
 **El prompt debe:**
 
@@ -243,8 +243,8 @@ Implementá en Java un algoritmo que encuentre el mayor elemento de una matriz
 
 ## Ejercicio 10 — Ordenamiento burbuja (Bubble Sort)
 
-Implementá en Java el algoritmo **Bubble Sort**. Generá `Ejercicio10.java` con
-`public class Ejercicio10` y su `main`.
+Implementá en Java el algoritmo **Bubble Sort**. Generá `Ejercicio1_10.java` con
+`public class Ejercicio1_10` y su `main`.
 
 **El prompt debe:**
 

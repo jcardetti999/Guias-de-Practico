@@ -9,6 +9,7 @@ try { [Console]::OutputEncoding = New-Object System.Text.UTF8Encoding($false) } 
 try { $OutputEncoding = New-Object System.Text.UTF8Encoding($false) } catch { }
 
 $guia = $PSScriptRoot
+$numeroGuia = [regex]::Match((Split-Path $guia -Leaf), '^Guia\s+(\d+)').Groups[1].Value
 $javac = Get-Command javac -ErrorAction SilentlyContinue
 $java = Get-Command java -ErrorAction SilentlyContinue
 if (-not $javac -or -not $java) {
@@ -24,7 +25,7 @@ if ($Clean) {
 }
 
 Set-Location $guia
-$archivos = 1..10 | ForEach-Object { "Ejercicio$_.java" }
+$archivos = 1..10 | ForEach-Object { "Ejercicio${numeroGuia}_$_.java" }
 foreach ($archivo in $archivos) {
     if (-not (Test-Path (Join-Path $guia $archivo))) {
         Write-Host "ERROR: falta $archivo" -ForegroundColor Red
@@ -49,15 +50,15 @@ if ($NoRun) {
 
 $fallos = 0
 foreach ($n in 1..10) {
-    Write-Host "`n=== EJERCICIO $n ===" -ForegroundColor Cyan
-    $salida = & $java.Source -cp $guia "Ejercicio$n" 2>&1
+    Write-Host "`n=== EJERCICIO ${numeroGuia}_$n ===" -ForegroundColor Cyan
+    $salida = & $java.Source -cp $guia "Ejercicio${numeroGuia}_$n" 2>&1
     $codigo = $LASTEXITCODE
     $salida | ForEach-Object { Write-Host $_ }
     if ($codigo -ne 0 -or ($salida -match 'Exception in thread|Error:')) {
-        Write-Host "FALLO: Ejercicio$n termino con codigo $codigo." -ForegroundColor Red
+        Write-Host "FALLO: Ejercicio${numeroGuia}_$n termino con codigo $codigo." -ForegroundColor Red
         $fallos++
     } else {
-        Write-Host "OK: Ejercicio$n termino con codigo 0." -ForegroundColor Green
+        Write-Host "OK: Ejercicio${numeroGuia}_$n termino con codigo 0." -ForegroundColor Green
     }
 }
 

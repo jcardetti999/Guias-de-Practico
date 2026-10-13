@@ -42,7 +42,7 @@ La consigna general de la cátedra establece cuatro requisitos que son
 - **NO hay** `pom.xml`, `build.gradle`, ni sistema de build. **NO lo crees.**
 - **NO hay** JUnit. **NO lo agregues.**
 - Los 10 archivos `EjercicioN.java` **no existen**. Todos se crean.
-- **No hay** `Ejercicio1.java` stub como en la Guía 1: acá arrancás de cero.
+- **No hay** `Ejercicio2_1.java` stub como en la Guía 1: acá arrancás de cero.
 - Default package (sin declaración `package`).
 
 ### Tenés terminal: SÍ
@@ -310,7 +310,7 @@ ilegibles. Los símbolos van también en los comentarios y el Javadoc.
 ### Archivos
 | # | Archivo | Líneas | Reduce | Caso base | T | S |
 |---|---------|--------|--------|-----------|---|---|
-| 1 | Ejercicio1.java | N | n→n-1 | n<=1 → 1 | Θ(n) | Θ(n) |
+| 1 | Ejercicio2_1.java | N | n→n-1 | n<=1 → 1 | Θ(n) | Θ(n) |
 
 ### Verificación ejecutada
 Qué corriste, qué salida dio, y si algún test falló. **No afirmes que funciona

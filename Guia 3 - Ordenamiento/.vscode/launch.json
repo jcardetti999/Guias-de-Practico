@@ -1,85 +1,85 @@
 {
-    "version": "0.2.0",
-    "configurations": [
-        {
-            "type": "java",
-            "name": "E1 - Bubble Sort paso a paso",
-            "request": "launch",
-            "mainClass": "Ejercicio1",
-            "cwd": "${fileDirname}",
-            "console": "integratedTerminal"
-        },
-        {
-            "type": "java",
-            "name": "E2 - Burbuja vs Seleccion",
-            "request": "launch",
-            "mainClass": "Ejercicio2",
-            "cwd": "${fileDirname}",
-            "console": "integratedTerminal"
-        },
-        {
-            "type": "java",
-            "name": "E3 - Insercion casi ordenado",
-            "request": "launch",
-            "mainClass": "Ejercicio3",
-            "cwd": "${fileDirname}",
-            "console": "integratedTerminal"
-        },
-        {
-            "type": "java",
-            "name": "E4 - Selection Sort de nombres",
-            "request": "launch",
-            "mainClass": "Ejercicio4",
-            "cwd": "${fileDirname}",
-            "console": "integratedTerminal"
-        },
-        {
-            "type": "java",
-            "name": "E5 - ShellSort y los gaps",
-            "request": "launch",
-            "mainClass": "Ejercicio5",
-            "cwd": "${fileDirname}",
-            "console": "integratedTerminal"
-        },
-        {
-            "type": "java",
-            "name": "E6 - Quicksort primer pivote",
-            "request": "launch",
-            "mainClass": "Ejercicio6",
-            "cwd": "${fileDirname}",
-            "console": "integratedTerminal"
-        },
-        {
-            "type": "java",
-            "name": "E7 - Peor caso de Quicksort",
-            "request": "launch",
-            "mainClass": "Ejercicio7",
-            "cwd": "${fileDirname}",
-            "console": "integratedTerminal"
-        },
-        {
-            "type": "java",
-            "name": "E8 - MergeSort paso a paso",
-            "request": "launch",
-            "mainClass": "Ejercicio8",
-            "cwd": "${fileDirname}",
-            "console": "integratedTerminal"
-        },
-        {
-            "type": "java",
-            "name": "E9 - Comparacion de algoritmos simples",
-            "request": "launch",
-            "mainClass": "Ejercicio9",
-            "cwd": "${fileDirname}",
-            "console": "integratedTerminal"
-        },
-        {
-            "type": "java",
-            "name": "E10 - Ranking de puntajes",
-            "request": "launch",
-            "mainClass": "Ejercicio10",
-            "cwd": "${fileDirname}",
-            "console": "integratedTerminal"
-        }
-    ]
+    "version":  "0.2.0",
+    "configurations":  [
+                           {
+                               "type":  "java",
+                               "name":  "Ejercicio3_1 - Bubble Sort paso a paso",
+                               "request":  "launch",
+                               "mainClass":  "Ejercicio3_1",
+                               "cwd":  "${fileDirname}",
+                               "console":  "integratedTerminal"
+                           },
+                           {
+                               "type":  "java",
+                               "name":  "Ejercicio3_2 - Burbuja vs Seleccion",
+                               "request":  "launch",
+                               "mainClass":  "Ejercicio3_2",
+                               "cwd":  "${fileDirname}",
+                               "console":  "integratedTerminal"
+                           },
+                           {
+                               "type":  "java",
+                               "name":  "Ejercicio3_3 - Insercion casi ordenado",
+                               "request":  "launch",
+                               "mainClass":  "Ejercicio3_3",
+                               "cwd":  "${fileDirname}",
+                               "console":  "integratedTerminal"
+                           },
+                           {
+                               "type":  "java",
+                               "name":  "Ejercicio3_4 - Selection Sort de nombres",
+                               "request":  "launch",
+                               "mainClass":  "Ejercicio3_4",
+                               "cwd":  "${fileDirname}",
+                               "console":  "integratedTerminal"
+                           },
+                           {
+                               "type":  "java",
+                               "name":  "Ejercicio3_5 - ShellSort y los gaps",
+                               "request":  "launch",
+                               "mainClass":  "Ejercicio3_5",
+                               "cwd":  "${fileDirname}",
+                               "console":  "integratedTerminal"
+                           },
+                           {
+                               "type":  "java",
+                               "name":  "Ejercicio3_6 - Quicksort primer pivote",
+                               "request":  "launch",
+                               "mainClass":  "Ejercicio3_6",
+                               "cwd":  "${fileDirname}",
+                               "console":  "integratedTerminal"
+                           },
+                           {
+                               "type":  "java",
+                               "name":  "Ejercicio3_7 - Peor caso de Quicksort",
+                               "request":  "launch",
+                               "mainClass":  "Ejercicio3_7",
+                               "cwd":  "${fileDirname}",
+                               "console":  "integratedTerminal"
+                           },
+                           {
+                               "type":  "java",
+                               "name":  "Ejercicio3_8 - MergeSort paso a paso",
+                               "request":  "launch",
+                               "mainClass":  "Ejercicio3_8",
+                               "cwd":  "${fileDirname}",
+                               "console":  "integratedTerminal"
+                           },
+                           {
+                               "type":  "java",
+                               "name":  "Ejercicio3_9 - Comparacion de algoritmos simples",
+                               "request":  "launch",
+                               "mainClass":  "Ejercicio3_9",
+                               "cwd":  "${fileDirname}",
+                               "console":  "integratedTerminal"
+                           },
+                           {
+                               "type":  "java",
+                               "name":  "Ejercicio3_10 - Ranking de puntajes",
+                               "request":  "launch",
+                               "mainClass":  "Ejercicio3_10",
+                               "cwd":  "${fileDirname}",
+                               "console":  "integratedTerminal"
+                           }
+                       ]
 }

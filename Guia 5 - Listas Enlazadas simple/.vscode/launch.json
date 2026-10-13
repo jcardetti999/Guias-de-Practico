@@ -1,15 +1,85 @@
 {
-    "version": "0.2.0",
-    "configurations": [
-        { "type": "java", "name": "E1 - Crear lista enlazada", "request": "launch", "mainClass": "Ejercicio1", "cwd": "${fileDirname}", "console": "integratedTerminal" },
-        { "type": "java", "name": "E2 - Buscar elementos", "request": "launch", "mainClass": "Ejercicio2", "cwd": "${fileDirname}", "console": "integratedTerminal" },
-        { "type": "java", "name": "E3 - Obtener por posición", "request": "launch", "mainClass": "Ejercicio3", "cwd": "${fileDirname}", "console": "integratedTerminal" },
-        { "type": "java", "name": "E4 - Insertar en posición", "request": "launch", "mainClass": "Ejercicio4", "cwd": "${fileDirname}", "console": "integratedTerminal" },
-        { "type": "java", "name": "E5 - Eliminar por valor", "request": "launch", "mainClass": "Ejercicio5", "cwd": "${fileDirname}", "console": "integratedTerminal" },
-        { "type": "java", "name": "E6 - Eliminar por posición", "request": "launch", "mainClass": "Ejercicio6", "cwd": "${fileDirname}", "console": "integratedTerminal" },
-        { "type": "java", "name": "E7 - Modificar elemento", "request": "launch", "mainClass": "Ejercicio7", "cwd": "${fileDirname}", "console": "integratedTerminal" },
-        { "type": "java", "name": "E8 - Contar ocurrencias", "request": "launch", "mainClass": "Ejercicio8", "cwd": "${fileDirname}", "console": "integratedTerminal" },
-        { "type": "java", "name": "E9 - Invertir lista", "request": "launch", "mainClass": "Ejercicio9", "cwd": "${fileDirname}", "console": "integratedTerminal" },
-        { "type": "java", "name": "E10 - Lista genérica", "request": "launch", "mainClass": "Ejercicio10", "cwd": "${fileDirname}", "console": "integratedTerminal" }
-    ]
+    "version":  "0.2.0",
+    "configurations":  [
+                           {
+                               "type":  "java",
+                               "name":  "Ejercicio5_1 - Crear lista enlazada",
+                               "request":  "launch",
+                               "mainClass":  "Ejercicio5_1",
+                               "cwd":  "${fileDirname}",
+                               "console":  "integratedTerminal"
+                           },
+                           {
+                               "type":  "java",
+                               "name":  "Ejercicio5_2 - Buscar elementos",
+                               "request":  "launch",
+                               "mainClass":  "Ejercicio5_2",
+                               "cwd":  "${fileDirname}",
+                               "console":  "integratedTerminal"
+                           },
+                           {
+                               "type":  "java",
+                               "name":  "Ejercicio5_3 - Obtener por posiciÃ³n",
+                               "request":  "launch",
+                               "mainClass":  "Ejercicio5_3",
+                               "cwd":  "${fileDirname}",
+                               "console":  "integratedTerminal"
+                           },
+                           {
+                               "type":  "java",
+                               "name":  "Ejercicio5_4 - Insertar en posiciÃ³n",
+                               "request":  "launch",
+                               "mainClass":  "Ejercicio5_4",
+                               "cwd":  "${fileDirname}",
+                               "console":  "integratedTerminal"
+                           },
+                           {
+                               "type":  "java",
+                               "name":  "Ejercicio5_5 - Eliminar por valor",
+                               "request":  "launch",
+                               "mainClass":  "Ejercicio5_5",
+                               "cwd":  "${fileDirname}",
+                               "console":  "integratedTerminal"
+                           },
+                           {
+                               "type":  "java",
+                               "name":  "Ejercicio5_6 - Eliminar por posiciÃ³n",
+                               "request":  "launch",
+                               "mainClass":  "Ejercicio5_6",
+                               "cwd":  "${fileDirname}",
+                               "console":  "integratedTerminal"
+                           },
+                           {
+                               "type":  "java",
+                               "name":  "Ejercicio5_7 - Modificar elemento",
+                               "request":  "launch",
+                               "mainClass":  "Ejercicio5_7",
+                               "cwd":  "${fileDirname}",
+                               "console":  "integratedTerminal"
+                           },
+                           {
+                               "type":  "java",
+                               "name":  "Ejercicio5_8 - Contar ocurrencias",
+                               "request":  "launch",
+                               "mainClass":  "Ejercicio5_8",
+                               "cwd":  "${fileDirname}",
+                               "console":  "integratedTerminal"
+                           },
+                           {
+                               "type":  "java",
+                               "name":  "Ejercicio5_9 - Invertir lista",
+                               "request":  "launch",
+                               "mainClass":  "Ejercicio5_9",
+                               "cwd":  "${fileDirname}",
+                               "console":  "integratedTerminal"
+                           },
+                           {
+                               "type":  "java",
+                               "name":  "Ejercicio5_10 - Lista genÃ©rica",
+                               "request":  "launch",
+                               "mainClass":  "Ejercicio5_10",
+                               "cwd":  "${fileDirname}",
+                               "console":  "integratedTerminal"
+                           }
+                       ]
 }

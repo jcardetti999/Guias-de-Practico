@@ -1,15 +1,85 @@
 {
-    "version": "0.2.0",
-    "configurations": [
-        { "type": "java", "name": "E1 - Pila enlazada de enteros", "request": "launch", "mainClass": "Ejercicio1", "cwd": "${fileDirname}", "console": "integratedTerminal" },
-        { "type": "java", "name": "E2 - Cola enlazada de enteros", "request": "launch", "mainClass": "Ejercicio2", "cwd": "${fileDirname}", "console": "integratedTerminal" },
-        { "type": "java", "name": "E3 - Pila generica", "request": "launch", "mainClass": "Ejercicio3", "cwd": "${fileDirname}", "console": "integratedTerminal" },
-        { "type": "java", "name": "E4 - Cola generica", "request": "launch", "mainClass": "Ejercicio4", "cwd": "${fileDirname}", "console": "integratedTerminal" },
-        { "type": "java", "name": "E5 - Historial de navegacion", "request": "launch", "mainClass": "Ejercicio5", "cwd": "${fileDirname}", "console": "integratedTerminal" },
-        { "type": "java", "name": "E6 - Atencion de clientes", "request": "launch", "mainClass": "Ejercicio6", "cwd": "${fileDirname}", "console": "integratedTerminal" },
-        { "type": "java", "name": "E7 - Parentesis balanceados", "request": "launch", "mainClass": "Ejercicio7", "cwd": "${fileDirname}", "console": "integratedTerminal" },
-        { "type": "java", "name": "E8 - Invertir palabra", "request": "launch", "mainClass": "Ejercicio8", "cwd": "${fileDirname}", "console": "integratedTerminal" },
-        { "type": "java", "name": "E9 - Cola de impresion", "request": "launch", "mainClass": "Ejercicio9", "cwd": "${fileDirname}", "console": "integratedTerminal" },
-        { "type": "java", "name": "E10 - Lista doble generica", "request": "launch", "mainClass": "Ejercicio10", "cwd": "${fileDirname}", "console": "integratedTerminal" }
-    ]
+    "version":  "0.2.0",
+    "configurations":  [
+                           {
+                               "type":  "java",
+                               "name":  "Ejercicio6_1 - Pila enlazada de enteros",
+                               "request":  "launch",
+                               "mainClass":  "Ejercicio6_1",
+                               "cwd":  "${fileDirname}",
+                               "console":  "integratedTerminal"
+                           },
+                           {
+                               "type":  "java",
+                               "name":  "Ejercicio6_2 - Cola enlazada de enteros",
+                               "request":  "launch",
+                               "mainClass":  "Ejercicio6_2",
+                               "cwd":  "${fileDirname}",
+                               "console":  "integratedTerminal"
+                           },
+                           {
+                               "type":  "java",
+                               "name":  "Ejercicio6_3 - Pila generica",
+                               "request":  "launch",
+                               "mainClass":  "Ejercicio6_3",
+                               "cwd":  "${fileDirname}",
+                               "console":  "integratedTerminal"
+                           },
+                           {
+                               "type":  "java",
+                               "name":  "Ejercicio6_4 - Cola generica",
+                               "request":  "launch",
+                               "mainClass":  "Ejercicio6_4",
+                               "cwd":  "${fileDirname}",
+                               "console":  "integratedTerminal"
+                           },
+                           {
+                               "type":  "java",
+                               "name":  "Ejercicio6_5 - Historial de navegacion",
+                               "request":  "launch",
+                               "mainClass":  "Ejercicio6_5",
+                               "cwd":  "${fileDirname}",
+                               "console":  "integratedTerminal"
+                           },
+                           {
+                               "type":  "java",
+                               "name":  "Ejercicio6_6 - Atencion de clientes",
+                               "request":  "launch",
+                               "mainClass":  "Ejercicio6_6",
+                               "cwd":  "${fileDirname}",
+                               "console":  "integratedTerminal"
+                           },
+                           {
+                               "type":  "java",
+                               "name":  "Ejercicio6_7 - Parentesis balanceados",
+                               "request":  "launch",
+                               "mainClass":  "Ejercicio6_7",
+                               "cwd":  "${fileDirname}",
+                               "console":  "integratedTerminal"
+                           },
+                           {
+                               "type":  "java",
+                               "name":  "Ejercicio6_8 - Invertir palabra",
+                               "request":  "launch",
+                               "mainClass":  "Ejercicio6_8",
+                               "cwd":  "${fileDirname}",
+                               "console":  "integratedTerminal"
+                           },
+                           {
+                               "type":  "java",
+                               "name":  "Ejercicio6_9 - Cola de impresion",
+                               "request":  "launch",
+                               "mainClass":  "Ejercicio6_9",
+                               "cwd":  "${fileDirname}",
+                               "console":  "integratedTerminal"
+                           },
+                           {
+                               "type":  "java",
+                               "name":  "Ejercicio6_10 - Lista doble generica",
+                               "request":  "launch",
+                               "mainClass":  "Ejercicio6_10",
+                               "cwd":  "${fileDirname}",
+                               "console":  "integratedTerminal"
+                           }
+                       ]
 }

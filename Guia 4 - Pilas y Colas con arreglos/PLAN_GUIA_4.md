@@ -19,7 +19,7 @@ sus aplicaciones.
 | Ruta | Estado |
 |------|--------|
 | `Guia 4 - Pilas y Colas con arreglos/Ejercicios4.docx` | Enunciados (único archivo) |
-| `Ejercicio1.java` … `Ejercicio10.java` | **No existen** |
+| `Ejercicio4_1.java` … `Ejercicio4_10.java` | **No existen** |
 | `_build_check.ps1`, `.classpath`, `.vscode/launch.json` | **No existen** |
 
 No hay código, ni build, ni configuración de VS Code.
@@ -309,7 +309,7 @@ el espacio liberado al principio vuelve a estar disponible.
 
 ## 10. Criterios de aceptación
 
-- [ ] Existen los 10 archivos `Ejercicio1.java` … `Ejercicio10.java`.
+- [ ] Existen los 10 archivos `Ejercicio4_1.java` … `Ejercicio4_10.java`.
 - [ ] Compilan con `javac -encoding UTF-8`.
 - [ ] **Cada archivo empieza con `PROMPT INICIAL`** con las **5 secciones** del
       objetivo general.
@@ -338,7 +338,7 @@ Hay que crear, igual que en las Guías 1–3:
 
 > **Importante:** el `launch.json` va **dentro de la carpeta de la guía**, no en la
 > raíz. Un `launch.json` en la raíz con 40 configuraciones sería ambiguo: las 4
-> guías tienen un `Ejercicio1` en default package, y el depurador no sabría
+> guías tienen un `Ejercicio4_1` en default package, y el depurador no sabría
 > cuál ejecutar. Es el error que se cometió en la Guía 3.
 
 ---

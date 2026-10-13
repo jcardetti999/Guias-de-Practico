@@ -32,7 +32,7 @@ respecto de la Guía 1:
 | Ruta | Estado |
 |------|--------|
 | `Guia 2 - Recursividad/Ejercicios2.docx` | Enunciados (material de cátedra) |
-| `Guia 2 - Recursividad/Ejercicio1.java` … `Ejercicio10.java` | **No existen** |
+| `Guia 2 - Recursividad/Ejercicio2_1.java` … `Ejercicio2_10.java` | **No existen** |
 | `Guia 2 - Recursividad/` | Sin código, sin build, sin tests |
 
 **No hay** sistema de build, ni JUnit, ni dependencias. Se compila con `javac`
@@ -146,7 +146,7 @@ ahorrar memoria.
 
 | Campo | Detalle |
 |-------|---------|
-| Archivo | `Ejercicio1.java` (crear) |
+| Archivo | `Ejercicio2_1.java` (crear) |
 | Definición | $n! = n \cdot (n-1)!$ |
 | Por qué recursivo | El factorial **se define en términos de sí mismo**: es la definición misma del número, no un artificio |
 | Caso base | $n \le 1 \Rightarrow 1$. Convenciones: $0! = 1$ y $1! = 1$ |
@@ -160,7 +160,7 @@ ahorrar memoria.
 
 | Campo | Detalle |
 |-------|---------|
-| Archivo | `Ejercicio2.java` |
+| Archivo | `Ejercicio2_2.java` |
 | Definición | $\text{suma}(n) = n + \text{suma}(n-1)$ |
 | Caso base | $n \le 0 \Rightarrow 0$ |
 | Reducción | $n \to n-1$ |
@@ -173,7 +173,7 @@ ahorrar memoria.
 
 | Campo | Detalle |
 |-------|---------|
-| Archivo | `Ejercicio3.java` |
+| Archivo | `Ejercicio2_3.java` |
 | Definición | $a \cdot b = a + \underbrace{a + \dots + a}_{b-1}$ |
 | **Qué se reduce** | **El segundo parámetro** $b$ (la cantidad de sumas), no $a$ |
 | Caso base | $b = 0 \Rightarrow 0$ (suma vacía) |
@@ -187,7 +187,7 @@ ahorrar memoria.
 
 | Campo | Detalle |
 |-------|---------|
-| Archivo | `Ejercicio4.java` |
+| Archivo | `Ejercicio2_4.java` |
 | Definición | $a^n = a \cdot a^{n-1}$ |
 | Por qué recursivo | Es multiplicación **anidada**: $a^n$ es $a$ multiplicado por sí mismo $n$ veces |
 | Caso base | $n = 0 \Rightarrow 1$ ($a^0 = 1$, incluso para $a=0$ por convenio) |
@@ -202,7 +202,7 @@ ahorrar memoria.
 
 | Campo | Detalle |
 |-------|---------|
-| Archivo | `Ejercicio5.java` |
+| Archivo | `Ejercicio2_5.java` |
 | Objetivo | Imprimir $n, n{-}1, \dots, 0$ |
 | Devuelve | **`void`** — imprime, no retorna. Es la primera vez que la recursión no devuelve valor |
 | Caso base | $n < 0 \Rightarrow$ no imprime nada y retorna |
@@ -215,7 +215,7 @@ ahorrar memoria.
 
 | Campo | Detalle |
 |-------|---------|
-| Archivo | `Ejercicio6.java` |
+| Archivo | `Ejercicio2_6.java` |
 | Definición | $\text{digitos}(n) = 1 + \text{digitos}(\lfloor n/10 \rfloor)$ |
 | Cómo reducir | División entera por 10: `n / 10` elimina el último dígito |
 | **Caso base** | $n < 10 \Rightarrow 1$ (un número de una sola cifra, incluido el 0) |
@@ -228,7 +228,7 @@ ahorrar memoria.
 
 | Campo | Detalle |
 |-------|---------|
-| Archivo | `Ejercicio7.java` |
+| Archivo | `Ejercicio2_7.java` |
 | Cómo obtener el último | `n % 10` (módulo) |
 | Cómo reducir | `n / 10` (división entera) |
 | **Caso base** | $n = 0 \Rightarrow 0$ — **distinto del E6**, que usa $n<10$. Aquí el 0 no aporta nada a la suma |
@@ -242,7 +242,7 @@ ahorrar memoria.
 
 | Campo | Detalle |
 |-------|---------|
-| Archivo | `Ejercicio8.java` |
+| Archivo | `Ejercicio2_8.java` |
 | Caso base | `""` → `""`; un solo carácter → ese mismo carácter |
 | Separar | `charAt(0)` = primer carácter; `substring(1)` = el resto |
 | Definición | $\text{inv}(s) = \text{inv}(\text{resto}(s)) + \text{primer}(s)$ |
@@ -256,7 +256,7 @@ ahorrar memoria.
 
 | Campo | Detalle |
 |-------|---------|
-| Archivo | `Ejercicio9.java` |
+| Archivo | `Ejercicio2_9.java` |
 | Por qué extremos | Un palíndromo se lee igual en ambos sentidos: el primer carácter debe igualar al último |
 | Si difieren | **`false` inmediato** — es un caso base de rechazo |
 | Reducción | Eliminar ambos extremos: `substring(1, length()-1)` |
@@ -270,7 +270,7 @@ ahorrar memoria.
 
 | Campo | Detalle |
 |-------|---------|
-| Archivo | `Ejercicio10.java` |
+| Archivo | `Ejercicio2_10.java` |
 | Desde dónde arranca | Posición `0` |
 | Cómo avanza sin `for`/`while` | El índice es un **parámetro** que crece: `buscar(vector, valor, i + 1)` |
 | **Dos casos base** | (a) **encontro** → devuelve el índice; (b) **llegó al final** `i >= length` → devuelve `-1` |
@@ -328,7 +328,7 @@ ahorrar memoria.
 
 ## 11. Criterios de aceptación
 
-- [ ] Existen los 10 archivos `Ejercicio1.java` … `Ejercicio10.java`.
+- [ ] Existen los 10 archivos `Ejercicio2_1.java` … `Ejercicio2_10.java`.
 - [ ] Cada uno compila con `javac -encoding UTF-8`.
 - [ ] **Cada archivo empieza con el bloque `PROMPT INICIAL`** con las 7 secciones.
 - [ ] **Cada archivo termina con el bloque `AJUSTES DEL PROMPT`** (puede decir que no hubo cambios).

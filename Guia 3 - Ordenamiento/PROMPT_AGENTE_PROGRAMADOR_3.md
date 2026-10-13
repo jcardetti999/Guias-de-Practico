@@ -323,7 +323,7 @@ ordenado.
 ### Archivos
 | # | Archivo | Líneas | Algoritmo | T (peor) | S |
 |---|---------|--------|-----------|-----------|---|
-| 1 | Ejercicio1.java | N | Bubble | Θ(n²) | Θ(1) |
+| 1 | Ejercicio3_1.java | N | Bubble | Θ(n²) | Θ(1) |
 
 ### Verificación ejecutada
 Qué corriste, qué salida dio, si algún test falló. **No afirmes que funciona

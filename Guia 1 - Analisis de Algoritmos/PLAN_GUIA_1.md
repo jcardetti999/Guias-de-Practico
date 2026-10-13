@@ -22,9 +22,9 @@ desde el propio código.
 
 | Ruta | Estado |
 |------|--------|
-| `Guia 1 - Analisis de Algoritmos/Ejercicio1.java` | **Stub vacío**: `public class Ejercicio1 {}` |
+| `Guia 1 - Analisis de Algoritmos/Ejercicio1_1.java` | **Stub vacío**: `public class Ejercicio1_1 {}` |
 | `Guia 1 - Analisis de Algoritmos/Ejercicios.docx` | Enunciados (material de cátedra) |
-| `Ejercicio2.java` … `Ejercicio10.java` | No existen |
+| `Ejercicio1_2.java` … `Ejercicio1_10.java` | No existen |
 
 **No hay** sistema de build (no hay `pom.xml`, `build.gradle`, `.project`).
 **No hay** framework de tests (no hay JUnit).
@@ -117,7 +117,7 @@ public class EjercicioN {
 
 | Campo | Detalle |
 |-------|---------|
-| Archivo | `Ejercicio1.java` (ya existe como stub → **modificar**) |
+| Archivo | `Ejercicio1_1.java` (ya existe como stub → **modificar**) |
 | Estrategia | Recorrido lineal único, acumulador `min` inicializado en `v[0]` |
 | T | $\Theta(n)$ — todos los casos |
 | S | $\Theta(1)$ |
@@ -129,7 +129,7 @@ public class EjercicioN {
 
 | Campo | Detalle |
 |-------|---------|
-| Archivo | `Ejercicio2.java` (crear) |
+| Archivo | `Ejercicio1_2.java` (crear) |
 | Estrategia | Búsqueda lineal con corte temprano |
 | T | Mejor $\Theta(1)$ · Peor $\Theta(n)$ · Promedio $\Theta(n)$ (coeficiente $\approx n/2$) |
 | S | $\Theta(1)$ |
@@ -141,7 +141,7 @@ public class EjercicioN {
 
 | Campo | Detalle |
 |-------|---------|
-| Archivo | `Ejercicio3.java` (crear) |
+| Archivo | `Ejercicio1_3.java` (crear) |
 | Estrategia | Divide y vencercer con `low` / `mid` / `high` |
 | T | Mejor $\Theta(1)$ · Promedio $\Theta(\log n)$ · Peor $\Theta(\log n)$ |
 | S | $\Theta(1)$ |
@@ -154,7 +154,7 @@ public class EjercicioN {
 
 | Campo | Detalle |
 |-------|---------|
-| Archivo | `Ejercicio4.java` (crear) |
+| Archivo | `Ejercicio1_4.java` (crear) |
 | Solución A | Dos ciclos anidados `i < j` |
 | Solución B | `java.util.HashSet` |
 | T (A) | Mejor $\Theta(1)$ · Peor $\Theta(n^2)$ · Promedio $\Theta(n^2)$ |
@@ -168,7 +168,7 @@ public class EjercicioN {
 
 | Campo | Detalle |
 |-------|---------|
-| Archivo | `Ejercicio5.java` (crear) |
+| Archivo | `Ejercicio1_5.java` (crear) |
 | Estrategia | Recorrido completo con contador |
 | T | $\Theta(n)$ — todos los casos |
 | S | $\Theta(1)$ |
@@ -180,7 +180,7 @@ public class EjercicioN {
 
 | Campo | Detalle |
 |-------|---------|
-| Archivo | `Ejercicio6.java` (crear) |
+| Archivo | `Ejercicio1_6.java` (crear) |
 | Estrategia | Comparación índice a índice con **salida temprana** |
 | T | Mejor $\Theta(1)$ · Peor $\Theta(n)$ · Promedio $\Theta(n)$ (menor constante por corte) |
 | S | $\Theta(1)$ |
@@ -191,7 +191,7 @@ public class EjercicioN {
 
 | Campo | Detalle |
 |-------|---------|
-| Archivo | `Ejercicio7.java` (crear) |
+| Archivo | `Ejercicio1_7.java` (crear) |
 | Versión A | Vector auxiliar → T $\Theta(n)$, S $\Theta(n)$ |
 | Versión B | In-place con dos punteros / `swap` → T $\Theta(n)$, S $\Theta(1)$ |
 | Requisito | Tabla de **ventajas, desventajas, T y S** para ambas |
@@ -201,7 +201,7 @@ public class EjercicioN {
 
 | Campo | Detalle |
 |-------|---------|
-| Archivo | `Ejercicio8.java` (crear) |
+| Archivo | `Ejercicio1_8.java` (crear) |
 | Estrategia | Doble ciclo `fila` → `columna`, total $m \times n$ celdas |
 | T | $\Theta(m \cdot n)$ |
 | S | $\Theta(1)$ (un único acumulador) |
@@ -212,7 +212,7 @@ public class EjercicioN {
 
 | Campo | Detalle |
 |-------|---------|
-| Archivo | `Ejercicio9.java` (crear) |
+| Archivo | `Ejercicio1_9.java` (crear) |
 | Estrategia | Doble ciclo con acumulador `max` |
 | T | $\Theta(m \cdot n)$ |
 | S | $\Theta(1)$ |
@@ -223,7 +223,7 @@ public class EjercicioN {
 
 | Campo | Detalle |
 |-------|---------|
-| Archivo | `Ejercicio10.java` (crear) |
+| Archivo | `Ejercicio1_10.java` (crear) |
 | Estrategia | Burbuja clásica + **bandera `swapped`** para salida temprana |
 | T | Mejor $\Theta(n)$ (ya ordenado) · Promedio $\Theta(n^2)$ · Peor $\Theta(n^2)$ |
 | S | $\Theta(1)$ — **in-place** |
@@ -237,16 +237,16 @@ public class EjercicioN {
 
 | # | Archivo | Acción | Complejidad T | Complejidad S | Instrumentación |
 |---|---------|--------|---------------|---------------|-----------------|
-| 1 | `Ejercicio1.java` | MODIFICAR | $\Theta(n)$ | $\Theta(1)$ | comparaciones |
-| 2 | `Ejercicio2.java` | CREAR | $\Theta(1)/\Theta(n)$ | $\Theta(1)$ | posiciones recorridas |
-| 3 | `Ejercicio3.java` | CREAR | $\Theta(\log n)$ | $\Theta(1)$ | traza paso a paso |
-| 4 | `Ejercicio4.java` | CREAR | $\Theta(n^2)$ / $\Theta(n)$ | $\Theta(1)$ / $\Theta(n)$ | comparaciones |
-| 5 | `Ejercicio5.java` | CREAR | $\Theta(n)$ | $\Theta(1)$ | comparaciones |
-| 6 | `Ejercicio6.java` | CREAR | $\Theta(1)/\Theta(n)$ | $\Theta(1)$ | comparaciones |
-| 7 | `Ejercicio7.java` | CREAR | $\Theta(n)$ | $\Theta(n)$ / $\Theta(1)$ | intercambios |
-| 8 | `Ejercicio8.java` | CREAR | $\Theta(m\cdot n)$ | $\Theta(1)$ | operaciones |
-| 9 | `Ejercicio9.java` | CREAR | $\Theta(m\cdot n)$ | $\Theta(1)$ | comparaciones |
-| 10 | `Ejercicio10.java` | CREAR | $\Theta(n^2)$ / $\Theta(n)$ | $\Theta(1)$ | comparaciones + intercambios |
+| 1 | `Ejercicio1_1.java` | MODIFICAR | $\Theta(n)$ | $\Theta(1)$ | comparaciones |
+| 2 | `Ejercicio1_2.java` | CREAR | $\Theta(1)/\Theta(n)$ | $\Theta(1)$ | posiciones recorridas |
+| 3 | `Ejercicio1_3.java` | CREAR | $\Theta(\log n)$ | $\Theta(1)$ | traza paso a paso |
+| 4 | `Ejercicio1_4.java` | CREAR | $\Theta(n^2)$ / $\Theta(n)$ | $\Theta(1)$ / $\Theta(n)$ | comparaciones |
+| 5 | `Ejercicio1_5.java` | CREAR | $\Theta(n)$ | $\Theta(1)$ | comparaciones |
+| 6 | `Ejercicio1_6.java` | CREAR | $\Theta(1)/\Theta(n)$ | $\Theta(1)$ | comparaciones |
+| 7 | `Ejercicio1_7.java` | CREAR | $\Theta(n)$ | $\Theta(n)$ / $\Theta(1)$ | intercambios |
+| 8 | `Ejercicio1_8.java` | CREAR | $\Theta(m\cdot n)$ | $\Theta(1)$ | operaciones |
+| 9 | `Ejercicio1_9.java` | CREAR | $\Theta(m\cdot n)$ | $\Theta(1)$ | comparaciones |
+| 10 | `Ejercicio1_10.java` | CREAR | $\Theta(n^2)$ / $\Theta(n)$ | $\Theta(1)$ | comparaciones + intercambios |
 
 ---
 
@@ -272,7 +272,7 @@ Aplican a **todos** los ejercicios:
 | Conflicto "no comentarios obvios" vs "código comentado" | Override explícito en el prompt (§4) |
 | El agente usa `Arrays.sort()` y anula el propósito didáctico | Prohibición explícita en los ejercicios 1, 3 y 10 |
 | El agente omite el análisis de complejidad por ser "solo código" | Plantilla de salida obligatoria con 7 secciones |
-| El agente "mejora" `Ejercicio1.java` con una arquitectura que rompa la convención | Regla de cambios mínimos + convención `EjercicioN.java` |
+| El agente "mejora" `Ejercicio1_1.java` con una arquitectura que rompa la convención | Regla de cambios mínimos + convención `EjercicioN.java` |
 | Respuestas en inglés | Idioma forzado a español en el prompt |
 
 ---
@@ -281,7 +281,7 @@ Aplican a **todos** los ejercicios:
 
 La tarea está terminada cuando:
 
-- [ ] Existen los 10 archivos `Ejercicio1.java` … `Ejercicio10.java`.
+- [ ] Existen los 10 archivos `Ejercicio1_1.java` … `Ejercicio1_10.java`.
 - [ ] Cada archivo compila con `javac EjercicioN.java` sin warnings de error.
 - [ ] Cada `main` imprime una salida de demostración con casos límite.
 - [ ] Cada ejercicio responde las 7 secciones de la plantilla de salida.
@@ -302,12 +302,12 @@ El agente no tiene terminal. El usuario ejecuta:
 cd "c:\Facu Things\2026\Estructura de Datos y Algoritmo\Guias de Practico\Guia 1 - Analisis de Algoritmos"
 
 # Compilar los 10
-javac -encoding UTF-8 Ejercicio1.java Ejercicio2.java Ejercicio3.java Ejercicio4.java Ejercicio5.java `
-        Ejercicio6.java Ejercicio7.java Ejercicio8.java Ejercicio9.java Ejercicio10.java
+javac -encoding UTF-8 Ejercicio1_1.java Ejercicio1_2.java Ejercicio1_3.java Ejercicio1_4.java Ejercicio1_5.java `
+        Ejercicio1_6.java Ejercicio1_7.java Ejercicio1_8.java Ejercicio1_9.java Ejercicio1_10.java
 
 # Ejecutar
-java Ejercicio1
-java Ejercicio2
+java Ejercicio1_1
+java Ejercicio1_2
 # ... etc
 ```
 

@@ -36,6 +36,7 @@ try { $OutputEncoding = New-Object System.Text.UTF8Encoding($false) } catch { }
 # la guia: si el script se copiara a otra, compilaria la guia equivocada en
 # silencio. Se busca el .docx de enunciados.
 $guia = $PSScriptRoot
+$numeroGuia = [regex]::Match((Split-Path $guia -Leaf), '^Guia\s+(\d+)').Groups[1].Value
 
 if (-not (Get-ChildItem -Path $guia -Filter '*.docx' -ErrorAction SilentlyContinue)) {
     $nombreCarpeta = Split-Path $guia -Leaf
@@ -46,8 +47,8 @@ if (-not (Get-ChildItem -Path $guia -Filter '*.docx' -ErrorAction SilentlyContin
     }
 }
 
-if (-not (Get-ChildItem -Path $guia -Filter 'Ejercicio1.java' -ErrorAction SilentlyContinue)) {
-    Write-Host "ERROR: no se encuentra Ejercicio1.java en: $guia" -ForegroundColor Red
+if (-not (Get-ChildItem -Path $guia -Filter "Ejercicio${numeroGuia}_1.java" -ErrorAction SilentlyContinue)) {
+    Write-Host "ERROR: no se encuentra Ejercicio${numeroGuia}_1.java en: $guia" -ForegroundColor Red
     Write-Host "  Ese archivo lo genera el agente Programmer al implementar la guia." -ForegroundColor Yellow
     Write-Host "  Si la guia ya esta implementada, revisa que el script este dentro de su carpeta." -ForegroundColor Yellow
     exit 1
@@ -150,7 +151,7 @@ if ($clasesViejas) {
 
 Write-Host ''
 Write-Host '=== COMPILACION ===' -ForegroundColor Cyan
-$archivos = 1..10 | ForEach-Object { "Ejercicio$_.java" }
+$archivos = 1..10 | ForEach-Object { "Ejercicio${numeroGuia}_$_.java" }
 $salida = & $javacExe -encoding UTF-8 $archivos 2>&1
 if ($LASTEXITCODE -ne 0) {
     $salida | ForEach-Object { Write-Host "  $_" }
@@ -192,7 +193,7 @@ $inputs = @{
 
 foreach ($n in 1..10) {
     Write-Host ''
-    Write-Host "=== EJERCICIO $n ===" -ForegroundColor Cyan
+    Write-Host "=== EJERCICIO ${numeroGuia}_$n ===" -ForegroundColor Cyan
 
     # La ENTRADA va por un archivo temporal y se redirige con '<'.
     #
@@ -203,7 +204,7 @@ foreach ($n in 1..10) {
     $archivoEntrada = Join-Path $env:TEMP "guia3_entrada_$n.txt"
     Set-Content -Path $archivoEntrada -Value $inputs[$n] -NoNewline -Encoding ascii
 
-    cmd /c "`"$javaExe`" Ejercicio$n < `"$archivoEntrada`""
+    cmd /c "`"$javaExe`" Ejercicio${numeroGuia}_$n < `"$archivoEntrada`""
     $codigo = $LASTEXITCODE
     Remove-Item $archivoEntrada -Force -ErrorAction SilentlyContinue
 

@@ -27,7 +27,7 @@ La progresión va de las operaciones básicas a las mutaciones más delicadas:
 | Ruta | Estado |
 |---|---|
 | `Guia 5 - Listas Enlazadas simple/Ejercicios5.docx` | Enunciado fuente |
-| `Ejercicio1.java` … `Ejercicio10.java` | No existen |
+| `Ejercicio5_1.java` … `Ejercicio5_10.java` | No existen |
 | `_build_check.ps1`, `.classpath`, `.vscode/launch.json` | No existen |
 | `PLAN_GUIA_5.md`, `PROMPT_AGENTE_PROGRAMADOR_5.md` | Se crean con este plan |
 
@@ -257,7 +257,7 @@ excepción no controlada.
 
 ## 8. Entregables y configuración
 
-- `Ejercicio1.java` … `Ejercicio10.java`, cada uno con su propio `main`.
+- `Ejercicio5_1.java` … `Ejercicio5_10.java`, cada uno con su propio `main`.
 - En cada fuente: comentario inicial con el prompt adaptado al ejercicio y
   bloque final `Ajustes realizados luego de la primera respuesta de OpenCode`.
 - `_build_check.ps1`: compilar los diez archivos con UTF-8 y ejecutar cada uno

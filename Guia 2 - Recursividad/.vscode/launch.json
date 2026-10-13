@@ -1,85 +1,85 @@
 {
-    "version": "0.2.0",
-    "configurations": [
-        {
-            "type": "java",
-            "name": "E1 - Factorial",
-            "request": "launch",
-            "mainClass": "Ejercicio1",
-            "cwd": "${fileDirname}",
-            "console": "integratedTerminal"
-        },
-        {
-            "type": "java",
-            "name": "E2 - Suma de los primeros N",
-            "request": "launch",
-            "mainClass": "Ejercicio2",
-            "cwd": "${fileDirname}",
-            "console": "integratedTerminal"
-        },
-        {
-            "type": "java",
-            "name": "E3 - Multiplicacion por sumas",
-            "request": "launch",
-            "mainClass": "Ejercicio3",
-            "cwd": "${fileDirname}",
-            "console": "integratedTerminal"
-        },
-        {
-            "type": "java",
-            "name": "E4 - Potencia",
-            "request": "launch",
-            "mainClass": "Ejercicio4",
-            "cwd": "${fileDirname}",
-            "console": "integratedTerminal"
-        },
-        {
-            "type": "java",
-            "name": "E5 - Conteo regresivo",
-            "request": "launch",
-            "mainClass": "Ejercicio5",
-            "cwd": "${fileDirname}",
-            "console": "integratedTerminal"
-        },
-        {
-            "type": "java",
-            "name": "E6 - Contar digitos",
-            "request": "launch",
-            "mainClass": "Ejercicio6",
-            "cwd": "${fileDirname}",
-            "console": "integratedTerminal"
-        },
-        {
-            "type": "java",
-            "name": "E7 - Sumar digitos",
-            "request": "launch",
-            "mainClass": "Ejercicio7",
-            "cwd": "${fileDirname}",
-            "console": "integratedTerminal"
-        },
-        {
-            "type": "java",
-            "name": "E8 - Invertir una palabra",
-            "request": "launch",
-            "mainClass": "Ejercicio8",
-            "cwd": "${fileDirname}",
-            "console": "integratedTerminal"
-        },
-        {
-            "type": "java",
-            "name": "E9 - Palindromo",
-            "request": "launch",
-            "mainClass": "Ejercicio9",
-            "cwd": "${fileDirname}",
-            "console": "integratedTerminal"
-        },
-        {
-            "type": "java",
-            "name": "E10 - Buscar en un arreglo (sin ciclos)",
-            "request": "launch",
-            "mainClass": "Ejercicio10",
-            "cwd": "${fileDirname}",
-            "console": "integratedTerminal"
-        }
-    ]
+    "version":  "0.2.0",
+    "configurations":  [
+                           {
+                               "type":  "java",
+                               "name":  "Ejercicio2_1 - Factorial",
+                               "request":  "launch",
+                               "mainClass":  "Ejercicio2_1",
+                               "cwd":  "${fileDirname}",
+                               "console":  "integratedTerminal"
+                           },
+                           {
+                               "type":  "java",
+                               "name":  "Ejercicio2_2 - Suma de los primeros N",
+                               "request":  "launch",
+                               "mainClass":  "Ejercicio2_2",
+                               "cwd":  "${fileDirname}",
+                               "console":  "integratedTerminal"
+                           },
+                           {
+                               "type":  "java",
+                               "name":  "Ejercicio2_3 - Multiplicacion por sumas",
+                               "request":  "launch",
+                               "mainClass":  "Ejercicio2_3",
+                               "cwd":  "${fileDirname}",
+                               "console":  "integratedTerminal"
+                           },
+                           {
+                               "type":  "java",
+                               "name":  "Ejercicio2_4 - Potencia",
+                               "request":  "launch",
+                               "mainClass":  "Ejercicio2_4",
+                               "cwd":  "${fileDirname}",
+                               "console":  "integratedTerminal"
+                           },
+                           {
+                               "type":  "java",
+                               "name":  "Ejercicio2_5 - Conteo regresivo",
+                               "request":  "launch",
+                               "mainClass":  "Ejercicio2_5",
+                               "cwd":  "${fileDirname}",
+                               "console":  "integratedTerminal"
+                           },
+                           {
+                               "type":  "java",
+                               "name":  "Ejercicio2_6 - Contar digitos",
+                               "request":  "launch",
+                               "mainClass":  "Ejercicio2_6",
+                               "cwd":  "${fileDirname}",
+                               "console":  "integratedTerminal"
+                           },
+                           {
+                               "type":  "java",
+                               "name":  "Ejercicio2_7 - Sumar digitos",
+                               "request":  "launch",
+                               "mainClass":  "Ejercicio2_7",
+                               "cwd":  "${fileDirname}",
+                               "console":  "integratedTerminal"
+                           },
+                           {
+                               "type":  "java",
+                               "name":  "Ejercicio2_8 - Invertir una palabra",
+                               "request":  "launch",
+                               "mainClass":  "Ejercicio2_8",
+                               "cwd":  "${fileDirname}",
+                               "console":  "integratedTerminal"
+                           },
+                           {
+                               "type":  "java",
+                               "name":  "Ejercicio2_9 - Palindromo",
+                               "request":  "launch",
+                               "mainClass":  "Ejercicio2_9",
+                               "cwd":  "${fileDirname}",
+                               "console":  "integratedTerminal"
+                           },
+                           {
+                               "type":  "java",
+                               "name":  "Ejercicio2_10 - Buscar en un arreglo (sin ciclos)",
+                               "request":  "launch",
+                               "mainClass":  "Ejercicio2_10",
+                               "cwd":  "${fileDirname}",
+                               "console":  "integratedTerminal"
+                           }
+                       ]
 }

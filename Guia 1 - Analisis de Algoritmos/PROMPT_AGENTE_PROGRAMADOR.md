@@ -24,8 +24,8 @@ existente se contradicen, **gana el código real** y lo reportás.
 - **JDK instalado: 21.0.10 LTS.** Java 21. Compilá con `javac`, sin Maven ni Gradle.
 - **NO hay** `pom.xml`, `build.gradle`, `.project` ni sistema de build. **NO lo crees.**
 - **NO hay** JUnit ni ningún framework de tests. **NO lo agregues.**
-- `Guia 1 - Analisis de Algoritmos/Ejercicio1.java` ya existe y es un **stub vacío**:
-      public class Ejercicio1 {}
+- `Guia 1 - Analisis de Algoritmos/Ejercicio1_1.java` ya existe y es un **stub vacío**:
+      public class Ejercicio1_1 {}
   → Debés completarlo, no crear un archivo paralelo.
 - Los ejercicios 2 a 10 **no existen**. Debés crearlos.
 - Todos los archivos van en **default package** (sin declaración `package`), porque
@@ -35,16 +35,16 @@ existente se contradicen, **gana el código real** y lo reportás.
 
 | Ejercicio | Archivo | Acción |
 |-----------|---------|--------|
-| 1 | `Ejercicio1.java` | MODIFICAR (ya existe como stub) |
-| 2 | `Ejercicio2.java` | CREAR |
-| 3 | `Ejercicio3.java` | CREAR |
-| 4 | `Ejercicio4.java` | CREAR |
-| 5 | `Ejercicio5.java` | CREAR |
-| 6 | `Ejercicio6.java` | CREAR |
-| 7 | `Ejercicio7.java` | CREAR |
-| 8 | `Ejercicio8.java` | CREAR |
-| 9 | `Ejercicio9.java` | CREAR |
-| 10 | `Ejercicio10.java` | CREAR |
+| 1 | `Ejercicio1_1.java` | MODIFICAR (ya existe como stub) |
+| 2 | `Ejercicio1_2.java` | CREAR |
+| 3 | `Ejercicio1_3.java` | CREAR |
+| 4 | `Ejercicio1_4.java` | CREAR |
+| 5 | `Ejercicio1_5.java` | CREAR |
+| 6 | `Ejercicio1_6.java` | CREAR |
+| 7 | `Ejercicio1_7.java` | CREAR |
+| 8 | `Ejercicio1_8.java` | CREAR |
+| 9 | `Ejercicio1_9.java` | CREAR |
+| 10 | `Ejercicio1_10.java` | CREAR |
 
 En cada uno: `public class EjercicioN` + `public static void main(String[] args)`.
 Todos los archivos en `Guia 1 - Analisis de Algoritmos/`.
@@ -91,7 +91,7 @@ verificaste. En su lugar:
   *prueba* para preparar la precondición.)
 - ❌ NO agregues dependencias externas.
 - ❌ NO crees un sistema de build, `package-info.java`, ni estructura de paquetes.
-- ❌ NO refactorices `Ejercicio1.java` más allá de su contenido.
+- ❌ NO refactorices `Ejercicio1_1.java` más allá de su contenido.
 - ❌ NO uses Lombok, streams, records ni sintaxis reciente innecesaria. Esto es
   material de cátedra de **Estructura de Datos y Algoritmos**: legibilidad
   Didáctica > elegancia funcional.
@@ -227,7 +227,7 @@ Y en el cuerpo del archivo, claramente delimitados con comentarios de sección:
 ## 7. ORDEN DE TRABAJO
 
 1. Leé `PLAN_GUIA_1.md` y `Ejercicios.docx`.
-2. Verificá el estado real de `Ejercicio1.java` y confirmá que los otros 9 no existen.
+2. Verificá el estado real de `Ejercicio1_1.java` y confirmá que los otros 9 no existen.
 3. Implementá los 10 ejercicios **en orden del 1 al 10**.
 4. Revisá estáticamente cada archivo antes de pasar al siguiente.
 5. Al terminar, corré una revisión de consistencia (§8).
@@ -236,8 +236,8 @@ Y en el cuerpo del archivo, claramente delimitados con comentarios de sección:
 
 Antes de reportar, verificá una por una:
 
-- [ ] Existen los 10 archivos `Ejercicio1.java` … `Ejercicio10.java`.
-- [ ] `Ejercicio1.java` se **modificó**; no se creó un duplicado.
+- [ ] Existen los 10 archivos `Ejercicio1_1.java` … `Ejercicio1_10.java`.
+- [ ] `Ejercicio1_1.java` se **modificó**; no se creó un duplicado.
 - [ ] Todos en default package, `public class EjercicioN`, con `main`.
 - [ ] Cada archivo tiene los 7 bloques de la plantilla (§4).
 - [ ] **La complejidad del Javadoc coincide con la del código.** Esto es lo más
@@ -256,7 +256,7 @@ Respondé con exactamente esta estructura:
 ### Archivos
 | # | Archivo | Acción | Líneas | Complejidad T | Complejidad S |
 |---|---------|--------|--------|---------------|---------------|
-| 1 | Ejercicio1.java | MODIFICADO | N | Θ(n) | Θ(1) |
+| 1 | Ejercicio1_1.java | MODIFICADO | N | Θ(n) | Θ(1) |
 | ... | ... | ... | ... | ... | ... |
 
 ### Verificación estática
